@@ -22,7 +22,7 @@ I came across an AI that can encode color in grayscale images one day. So, I was
 Download and install Python. Then execute `pip install numpy pillow`. Now, extract the archive to a convenient location. You can copy the images you want to convert and save them in the same directory for convenience.
 ## Usage
 ### Encoding
-Type `python encode.py` (or `python encode fs-dither.py` if you want to use floyd-steinberg dithering) and then enter the path to the image file you want to convert. Then, enter the number of bits to be used for Y'. The default value is 4. More bits for Y' result in a better grayscale image but a lower color quality. If you run `encode fs-dither.py,` you'll be asked if you want to dither. The output filename will end with "_b-w" or "_b-w_dither".
+Type `python encode.py` (or `python encode_fs-dither.py` if you want to use floyd-steinberg dithering) and then enter the path to the image file you want to convert. Then, enter the number of bits to be used for Y'. The default value is 4. More bits for Y' result in a better grayscale image but a lower color quality. If you run `encode_fs-dither.py,` you'll be asked if you want to dither. The output filename will end with "_b-w" or "_b-w_dither".
 ### Decoding
 Type `python decode.py` and enter the path to the image file you want to convert. Then, enter the number of bits used for Y'. The default value is 4. The output filename will end with "_color"
 
