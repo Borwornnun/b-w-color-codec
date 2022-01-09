@@ -28,9 +28,9 @@ Type `python encode.py` (or `python encode_fs-dither.py` if you want to use floy
 Type `python decode.py` and enter the path to the image file you want to convert. Then, enter the number of bits used for Y'. The default value is 4. The output filename will end with "_color"
 
 ## Examples
-Original image<br /> ![An image of flowers](examples/example.jpg "Original image")<br />
-Converted to grayscale and dithered<br /> ![An image of flowers in grayscale](examples/example_b-w_dither.png "Converted to grayscale and dithered")<br />
-The same image, converted back to color<br /> ![Another image of flowers](examples/example_b-w_dither_color.png "The same image, converted back to color")<br />
+| Original image | Converted to grayscale and dithered | The same image, converted back to color |
+| --- | --- | --- |
+| ![An image of flowers](examples/example_small.png "Original image") | ![An image of flowers in grayscale](examples/example_small_b-w_dither.png "Converted to grayscale and dithered") | ![Another image of flowers](examples/example_small_b-w_dither_color.png "The same image, converted back to color")<br /> |
 
 ## Contributing
 Contributions, issues and feature requests are welcome.<br />
