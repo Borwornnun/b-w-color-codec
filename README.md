@@ -12,6 +12,7 @@ I came across an AI that can encode color in grayscale images one day. So, I was
 * Add command line parameter
 * Add batch processing capability
 * Think of a more creative name
+* Get rid of purple tint when dithering color
 
 ## Prerequisites
 * [Python3](https://www.python.org/downloads/)
