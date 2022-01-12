@@ -5,14 +5,14 @@ A script that converts images into black and white (grayscale), and encodes colo
 I came across an AI that can encode color in grayscale images one day. So, I was inspired to create something similar. I don't know much about coding, but I've heard that Python is good for beginners, so I used it in my program. This was my first serious attempt at writing code. I have to go to Google and look up how to program. Please let me know if there is anything I can do better!
 
 ## To do
-* Add a GUI
-* Make it into a program 
-* Clean up the code
-* Store the bit ratio in the file somehow
-* Add command line parameter
-* Add batch processing capability
-* Think of a more creative name
-* Get rid of purple tint when dithering color
+* [ ] Add a GUI
+* [ ] Make it into a program 
+* [ ] Clean up the code
+* [ ] Store the bit ratio in the file somehow
+* [ ] Add command line parameter
+* [ ] Add batch processing capability
+* [ ] Think of a more creative name
+* [X] Get rid of purple tint when dithering color
 
 ## Prerequisites
 * [Python3](https://www.python.org/downloads/)
